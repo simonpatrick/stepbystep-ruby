@@ -9,4 +9,6 @@ class Person
   end
 end
 
-
+options = {:age=>15};
+p = Person.new(options)
+puts p.teenager?
