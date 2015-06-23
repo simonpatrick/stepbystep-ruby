@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00d1bf87-c863-4332-a615-c51eb0c614e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snippet/die.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snippet/macro-sample.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snippet/macro_sample.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snippet/music.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snippet/playing_card.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic/.person.rb.swp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/person.rb" afterPath="$PROJECT_DIR$/snippet/person.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/stepbystep-ruby.iml" afterPath="$PROJECT_DIR$/.idea/stepbystep-ruby.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="stepbystep-ruby.iws" />
@@ -36,7 +28,7 @@
     <SUITE FILE_PATH="coverage/stepbystep-ruby@stacklike.coverage" NAME="stacklike Coverage Results" MODIFIED="1434959012971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="coverage/stepbystep-ruby@numeric.coverage" NAME="numeric Coverage Results" MODIFIED="1431598448609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="coverage/stepbystep-ruby@music.coverage" NAME="music Coverage Results" MODIFIED="1434979513339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
-    <SUITE FILE_PATH="coverage/stepbystep-ruby@macro_sample.coverage" NAME="macro_sample Coverage Results" MODIFIED="1435013142647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@macro_sample.coverage" NAME="macro_sample Coverage Results" MODIFIED="1435013279174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="coverage/stepbystep-ruby@modify_string.coverage" NAME="modify_string Coverage Results" MODIFIED="1431597685636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -586,7 +578,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36301368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
