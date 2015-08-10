@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00d1bf87-c863-4332-a615-c51eb0c614e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="00d1bf87-c863-4332-a615-c51eb0c614e4" name="Default" comment="" />
     <ignored path="stepbystep-ruby.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -28,7 +26,7 @@
     <SUITE FILE_PATH="coverage/stepbystep-ruby@stacklike.coverage" NAME="stacklike Coverage Results" MODIFIED="1434959012971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="coverage/stepbystep-ruby@numeric.coverage" NAME="numeric Coverage Results" MODIFIED="1431598448609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="coverage/stepbystep-ruby@music.coverage" NAME="music Coverage Results" MODIFIED="1434979513339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
-    <SUITE FILE_PATH="coverage/stepbystep-ruby@macro_sample.coverage" NAME="macro_sample Coverage Results" MODIFIED="1435013279174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@macro_sample.coverage" NAME="macro-sample Coverage Results" MODIFIED="1435157046563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="coverage/stepbystep-ruby@modify_string.coverage" NAME="modify_string Coverage Results" MODIFIED="1431597685636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -123,21 +121,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="macro-sample.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="macro-sample.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/snippet/macro-sample.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.5415929" vertical-offset="0" max-vertical-offset="565">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="macro_sample.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="macro_sample.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/snippet/macro_sample.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6318584" vertical-offset="0" max-vertical-offset="565">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -322,7 +320,7 @@
       <recent name="$PROJECT_DIR$/advanced" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.macro_sample">
+  <component name="RunManager" selected="Ruby.macro-sample">
     <configuration default="false" name="die" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="stepbystep-ruby" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -545,8 +543,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.macro_sample" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.macro-sample" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.macro-sample" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.macro_sample" />
         <item index="2" class="java.lang.String" itemvalue="Ruby.music" />
         <item index="3" class="java.lang.String" itemvalue="Ruby.playing_card" />
         <item index="4" class="java.lang.String" itemvalue="Ruby.die" />
@@ -568,7 +566,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="760" y="34" width="918" height="948" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32352942" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -578,7 +576,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36301368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -969,18 +967,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/snippet/macro-sample.rb">
+    <entry file="file://$PROJECT_DIR$/snippet/macro_sample.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/snippet/macro_sample.rb">
+    <entry file="file://$PROJECT_DIR$/snippet/macro-sample.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6318584" vertical-offset="0" max-vertical-offset="565">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.5415929" vertical-offset="0" max-vertical-offset="565">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>
