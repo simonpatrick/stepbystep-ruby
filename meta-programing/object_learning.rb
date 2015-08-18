@@ -13,3 +13,7 @@ object_learning =ObjectLearning.new
 puts object_learning.class
 object_learning.p_object
 
+puts "string".class
+puts String.class
+
+

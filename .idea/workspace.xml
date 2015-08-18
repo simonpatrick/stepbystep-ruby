@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00d1bf87-c863-4332-a615-c51eb0c614e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/day1/RakeSmaple.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/day1/monkeypatch.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/day1/my_module.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/alias.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/test/assertions.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/attr.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/bookworm_classvars.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/bookworm_wrapper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/broken_math.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/class_attr.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/class_definition.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/class_eval.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/class_instance_variables.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/class_methods_truth.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/class_taboo_1.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/class_taboo_2.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/current_class.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/current_variable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta-programing/class_definition/de_in_method.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meta-programing/object_learning.rb" afterPath="$PROJECT_DIR$/meta-programing/object_learning.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/stepbystep-ruby.iml" afterPath="$PROJECT_DIR$/.idea/stepbystep-ruby.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -21,22 +34,37 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@class_revisit.coverage" NAME="class_revisit Coverage Results" MODIFIED="1431599747896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="coverage/stepbystep-ruby@monkeypatch.coverage" NAME="monkeypatch Coverage Results" MODIFIED="1439764041933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="coverage/stepbystep-ruby@my_module.coverage" NAME="my_module Coverage Results" MODIFIED="1439764305801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
-    <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@truth_of_class.coverage" NAME="truth_of_class Coverage Results" MODIFIED="1431599661049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@attr.coverage" NAME="attr Coverage Results" MODIFIED="1439778910587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@de_in_method.coverage" NAME="de_in_method Coverage Results" MODIFIED="1439873255732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@formatter.coverage" NAME="formatter Coverage Results" MODIFIED="1431597440503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/learnrubyinhardway" MODULE_NAME="stepbystep-ruby" />
-    <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@playing_card.coverage" NAME="playing_card Coverage Results" MODIFIED="1434979152744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@TennisScorer_basic_scoring_should_be_15_0_if_the_server_wins_a_point__stepbystep_ruby.coverage" NAME="TennisScorer basic scoring should be 15-0 if the server wins a point: stepbystep-ruby Coverage Results" MODIFIED="1430458282745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rubycookbook/bdd" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@object_learning.coverage" NAME="object_learning Coverage Results" MODIFIED="1439823999892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@class_taboo_1.coverage" NAME="class_taboo_1 Coverage Results" MODIFIED="1439872649502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@class_instance_variables.coverage" NAME="class_instance_variables Coverage Results" MODIFIED="1439859230678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@music.coverage" NAME="music Coverage Results" MODIFIED="1434979513339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@numeric.coverage" NAME="numeric Coverage Results" MODIFIED="1431598448609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@calss_taboo_2.coverage" NAME="class_taboo_2 Coverage Results" MODIFIED="1439872779141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@current_class.coverage" NAME="current_class Coverage Results" MODIFIED="1439873148959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@class_revisit.coverage" NAME="class_revisit Coverage Results" MODIFIED="1431599747896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@truth_of_class.coverage" NAME="truth_of_class Coverage Results" MODIFIED="1431599661049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@bookworm_classvars.coverage" NAME="bookworm_classvars Coverage Results" MODIFIED="1439819807139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@class_definition.coverage" NAME="class_definition Coverage Results" MODIFIED="1439858774971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@playing_card.coverage" NAME="playing_card Coverage Results" MODIFIED="1434979152744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@object_learning.coverage" NAME="object_learning Coverage Results" MODIFIED="1430316141476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby_learning" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@class_attr.coverage" NAME="class_attr Coverage Results" MODIFIED="1439858621899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@die.coverage" NAME="die Coverage Results" MODIFIED="1434978728456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@class_definition.coverage" NAME="class_definition Coverage Results" MODIFIED="1431597920795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@person.coverage" NAME="person Coverage Results" MODIFIED="1434965239813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@modify_string.coverage" NAME="modify_string Coverage Results" MODIFIED="1431597685636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@alias.coverage" NAME="alias Coverage Results" MODIFIED="1439778333672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@bookworm_wrapper.coverage" NAME="bookworm_wrapper Coverage Results" MODIFIED="1439820382958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@broken_math.coverage" NAME="broken_math Coverage Results" MODIFIED="1439820499670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@stacklike.coverage" NAME="stacklike Coverage Results" MODIFIED="1434959012971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@macro_sample.coverage" NAME="macro-sample Coverage Results" MODIFIED="1435157046563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
-    <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@music.coverage" NAME="music Coverage Results" MODIFIED="1434979513339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippet" MODULE_NAME="stepbystep-ruby" />
-    <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@numeric.coverage" NAME="numeric Coverage Results" MODIFIED="1431598448609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@class_eval.coverage" NAME="class_eval Coverage Results" MODIFIED="1439858974428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@class_methods_truth.coverage" NAME="class_methods_truth Coverage Results" MODIFIED="1439859441678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -47,101 +75,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="basic.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/learnrubyinhardway/ruby_simple/basic.rb">
+      <file leaf-file-name="class_attr.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_attr.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_story_kit.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usage/user_story_kit.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="object_learning.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meta-programing/object_learning.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ruby_basic.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meta-programing/ruby_basic.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="truth_of_class.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meta-programing/day1/truth_of_class.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class_revisit.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meta-programing/day1/class_revisit.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="class_definition.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meta-programing/day1/class_definition.rb">
+        <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_definition.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="monkeypatch.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meta-programing/day1/monkeypatch.rb">
+      <file leaf-file-name="class_eval.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_eval.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_module.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meta-programing/day1/my_module.rb">
+      <file leaf-file-name="class_instance_variables.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_instance_variables.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RakeSmaple.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/meta-programing/day1/RakeSmaple.rb">
+      <file leaf-file-name="class_methods_truth.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_methods_truth.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.036637932">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_taboo_1.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_taboo_1.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_taboo_2.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_taboo_2.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="current_variable.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/current_variable.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="current_class.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/current_class.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="de_in_method.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/de_in_method.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3800813">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -162,18 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/cheese_find_tests.rb" />
-        <option value="$PROJECT_DIR$/selenium_ruby/product_view.rb" />
-        <option value="$PROJECT_DIR$/selenium_ruby/product_view_detail.rb" />
-        <option value="$PROJECT_DIR$/selenium_ruby/json_fixures.json" />
-        <option value="$PROJECT_DIR$/selenium_ruby/yaml_fixtures.yaml" />
-        <option value="$PROJECT_DIR$/selenium_ruby/fixture_testing/product_view_test.rb" />
-        <option value="$PROJECT_DIR$/selenium_ruby/fixture_testing/product_validation_test.rb" />
-        <option value="$PROJECT_DIR$/selenium_ruby/fixture_testing/test_data.rb" />
-        <option value="$PROJECT_DIR$/selenium_ruby/fixture_testing/selenium_wrapper.rb" />
-        <option value="$PROJECT_DIR$/selenium_ruby/fixture_testing/ruby" />
-        <option value="$PROJECT_DIR$/selenium_ruby/fixture_testing/test.rb" />
         <option value="$PROJECT_DIR$/selenium_ruby/fixture_testing/helper/selenium_wrapper.rb" />
         <option value="$PROJECT_DIR$/selenium_ruby/fixture_testing/seleniumwrapper.rb" />
         <option value="$PROJECT_DIR$/selenium_ruby/fixture_testing/run_tests.rb" />
@@ -209,6 +225,22 @@
         <option value="$PROJECT_DIR$/meta-programing/day1/monkeypatch.rb" />
         <option value="$PROJECT_DIR$/meta-programing/day1/my_module.rb" />
         <option value="$PROJECT_DIR$/meta-programing/day1/RakeSmaple.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/test/assertions.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/alias.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/attr.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/bookworm_classvars.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/bookworm_wrapper.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/broken_math.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/object_learning.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/class_attr.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/class_definition.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/class_eval.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/class_instance_variables.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/class_methods_truth.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/class_taboo_1.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/calss_taboo_2.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/current_class.rb" />
+        <option value="$PROJECT_DIR$/meta-programing/class_definition/de_in_method.rb" />
       </list>
     </option>
   </component>
@@ -220,10 +252,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="262" />
-    <option name="y" value="23" />
-    <option name="width" value="878" />
-    <option name="height" value="775" />
+    <option name="x" value="582" />
+    <option name="y" value="27" />
+    <option name="width" value="936" />
+    <option name="height" value="852" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -238,7 +270,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>BashSupport</id>
+            <id>CoffeeScript</id>
           </State>
         </selected-state>
       </profile-state>
@@ -267,8 +299,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,12 +345,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day1" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stepbystep-ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stepbystep-ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meta-programing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class_definition" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,7 +382,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="LayoutCode.rearrangeEntriesRuby" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -348,11 +398,11 @@
       <recent name="$PROJECT_DIR$/advanced" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.my_module">
-    <configuration default="false" name="music" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+  <component name="RunManager" selected="Ruby.de_in_method">
+    <configuration default="false" name="class_methods_truth" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="stepbystep-ruby" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/snippet" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/meta-programing/class_definition" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -365,80 +415,14 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/snippet/music.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="macro-sample" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="stepbystep-ruby" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/snippet" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/snippet/macro-sample.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="macro_sample" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="stepbystep-ruby" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/snippet" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/snippet/macro_sample.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="monkeypatch" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="stepbystep-ruby" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/meta-programing/day1" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/meta-programing/day1/monkeypatch.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/meta-programing/class_definition/class_methods_truth.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="false" name="my_module" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="class_taboo_1" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="stepbystep-ruby" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/meta-programing/day1" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/meta-programing/class_definition" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -451,7 +435,67 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/meta-programing/day1/my_module.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/meta-programing/class_definition/class_taboo_1.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="class_taboo_2" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="stepbystep-ruby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/meta-programing/class_definition" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/meta-programing/class_definition/class_taboo_2.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="current_class" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="stepbystep-ruby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/meta-programing/class_definition" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/meta-programing/class_definition/current_class.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="de_in_method" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="stepbystep-ruby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/meta-programing/class_definition" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/meta-programing/class_definition/de_in_method.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -583,19 +627,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.music" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.macro-sample" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.macro_sample" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.monkeypatch" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.my_module" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.class_methods_truth" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.class_taboo_1" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.class_taboo_2" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.current_class" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.de_in_method" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.my_module" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.monkeypatch" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.macro_sample" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.macro-sample" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.music" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Ruby.de_in_method" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.current_class" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.class_taboo_2" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.class_taboo_1" />
       </list>
     </recent_temporary>
   </component>
@@ -613,18 +656,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="262" y="23" width="878" height="775" extended-state="0" />
+    <frame x="582" y="27" width="936" height="852" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28246012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29082775" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3384224" sideWeight="0.5044743" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3384224" sideWeight="0.49552572" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32349324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32299012" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -633,7 +677,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -649,122 +692,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/fixture_testing/json_fixures.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/fixture_testing/yaml_fixtures.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/fixture_testing/product_view_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/fixture_testing/product_validation_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/fixture_testing/test_data.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/fixture_testing/seleniumwrapper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/fixture_testing/run_tests.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/bdd-1/configuration/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/bdd-1/features/add_item_one.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/bdd-1/features/product_view.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/bdd-1/features/purchase_form.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/bdd-1/fixtures/product_fixtures.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/bdd-1/fixtures/test_data.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/bdd-1/helpers/selenium_wrapper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/bdd-1/step_definition/cart_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/bdd-1/step_definition/product_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usage/selenium_ruby/bdd-1/step_definition/purcharse_form_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -874,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,7 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,7 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,23 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meta-programing/object_learning.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meta-programing/ruby_basic.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,8 +929,152 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meta-programing/day1/RakeSmaple.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.036637932">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/alias.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/bookworm_classvars.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/attr.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6910569">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/test/assertions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34552845">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/bookworm_wrapper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82723576">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/broken_math.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/ruby_basic.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/object_learning.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_attr.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_definition.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_eval.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_instance_variables.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_methods_truth.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_taboo_1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/class_taboo_2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/current_variable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/current_class.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta-programing/class_definition/de_in_method.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3800813">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
