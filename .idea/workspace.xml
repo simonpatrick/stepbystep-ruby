@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00d1bf87-c863-4332-a615-c51eb0c614e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advanced/classes/method_override/animal.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advanced/classes/method_override/current_classes.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advanced/classes/method_override/dave.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advanced/classes/inherit/dynamic_inherit.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advanced/classes/inherit/inherit_from_struct.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advanced/classes/method_override/person.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advanced/classes/inherit/prototype.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advanced/classes/method_override/self_class.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/advanced/classes/inherit/dynamic_inherit.rb" afterPath="$PROJECT_DIR$/advanced/classes/sharing_behavior/dynamic_inherit.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/advanced/classes/inherit/inherit_from_struct.rb" afterPath="$PROJECT_DIR$/advanced/classes/sharing_behavior/inherit_from_struct.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/advanced/classes/inherit/prototype.rb" afterPath="$PROJECT_DIR$/advanced/classes/sharing_behavior/prototype.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/advanced/classes/method_override/animal.rb" afterPath="$PROJECT_DIR$/advanced/classes/objects_classes/animal.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/advanced/classes/method_override/current_classes.rb" afterPath="$PROJECT_DIR$/advanced/classes/objects_classes/current_classes.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/advanced/classes/method_override/dave.rb" afterPath="$PROJECT_DIR$/advanced/classes/objects_classes/dave.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/advanced/classes/method_override/person.rb" afterPath="$PROJECT_DIR$/advanced/classes/objects_classes/person.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/advanced/classes/method_override/self_class.rb" afterPath="$PROJECT_DIR$/advanced/classes/objects_classes/self_class.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/learnrubyinhardway/ruby_simple/inheritance.rb" afterPath="$PROJECT_DIR$/basic/learnrubyinhardway/ruby_simple/inheritance.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/stepbystep-ruby.iml" afterPath="$PROJECT_DIR$/.idea/stepbystep-ruby.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -41,6 +42,7 @@
     <SUITE FILE_PATH="coverage/stepbystep-ruby@current_class.coverage" NAME="current_class Coverage Results" MODIFIED="1439873148959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="coverage/stepbystep-ruby@prototype.coverage" NAME="prototype Coverage Results" MODIFIED="1446540325880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/classes/inherit" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@class_revisit.coverage" NAME="class_revisit Coverage Results" MODIFIED="1431599747896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
+    <SUITE FILE_PATH="coverage/stepbystep-ruby@textile.coverage" NAME="textile Coverage Results" MODIFIED="1446541665965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/classes/inherit" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="RubyMine70/coverage/stepbystep-ruby@truth_of_class.coverage" NAME="truth_of_class Coverage Results" MODIFIED="1431599661049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/day1" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="coverage/stepbystep-ruby@bookworm_classvars.coverage" NAME="bookworm_classvars Coverage Results" MODIFIED="1439819807139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
     <SUITE FILE_PATH="coverage/stepbystep-ruby@class_definition.coverage" NAME="class_definition Coverage Results" MODIFIED="1439858774971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meta-programing/class_definition" MODULE_NAME="stepbystep-ruby" />
@@ -74,7 +76,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="animal.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/classes/method_override/animal.rb">
+        <entry file="file://$PROJECT_DIR$/advanced/classes/objects_classes/animal.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -84,7 +86,7 @@
         </entry>
       </file>
       <file leaf-file-name="current_classes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/classes/method_override/current_classes.rb">
+        <entry file="file://$PROJECT_DIR$/advanced/classes/objects_classes/current_classes.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -101,7 +103,7 @@
         </entry>
       </file>
       <file leaf-file-name="person.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/classes/method_override/person.rb">
+        <entry file="file://$PROJECT_DIR$/advanced/classes/objects_classes/person.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
@@ -111,7 +113,7 @@
         </entry>
       </file>
       <file leaf-file-name="dynamic_inherit.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/classes/inherit/dynamic_inherit.rb">
+        <entry file="file://$PROJECT_DIR$/advanced/classes/sharing_behavior/dynamic_inherit.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -121,7 +123,7 @@
         </entry>
       </file>
       <file leaf-file-name="inherit_from_struct.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/classes/inherit/inherit_from_struct.rb">
+        <entry file="file://$PROJECT_DIR$/advanced/classes/sharing_behavior/inherit_from_struct.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
@@ -131,17 +133,17 @@
         </entry>
       </file>
       <file leaf-file-name="prototype.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/advanced/classes/inherit/prototype.rb">
+        <entry file="file://$PROJECT_DIR$/advanced/classes/sharing_behavior/prototype.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8806306">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.34744525">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="dave.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/classes/method_override/dave.rb">
+        <entry file="file://$PROJECT_DIR$/advanced/classes/objects_classes/dave.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -151,7 +153,7 @@
         </entry>
       </file>
       <file leaf-file-name="self_class.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/classes/method_override/self_class.rb">
+        <entry file="file://$PROJECT_DIR$/advanced/classes/objects_classes/self_class.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -175,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/selenium_ruby/bdd-1/fixtures/product_fixtures.yaml" />
         <option value="$PROJECT_DIR$/selenium_ruby/bdd-1/fixtures/test_data.rb" />
         <option value="$PROJECT_DIR$/selenium_ruby/bdd-1/helpers/selenium_wrapper.rb" />
         <option value="$PROJECT_DIR$/selenium_ruby/bdd-1/step_definition/cart_steps.rb" />
@@ -226,6 +227,7 @@
         <option value="$PROJECT_DIR$/advanced/classes/inherit/dynamic_inherit.rb" />
         <option value="$PROJECT_DIR$/advanced/classes/inherit/inherit_from_struct.rb" />
         <option value="$PROJECT_DIR$/advanced/classes/inherit/prototype.rb" />
+        <option value="$PROJECT_DIR$/advanced/classes/inherit/textile.rb" />
       </list>
     </option>
   </component>
@@ -237,9 +239,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="208" />
-    <option name="y" value="73" />
-    <option name="width" value="1076" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -318,46 +319,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stepbystep-ruby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stepbystep-ruby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stepbystep-ruby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stepbystep-ruby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inherit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -387,31 +348,11 @@
       <recent name="$PROJECT_DIR$/advanced" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.prototype">
-    <configuration default="false" name="self_class" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="stepbystep-ruby" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/advanced/classes/method_override" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/advanced/classes/method_override/self_class.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.textile">
     <configuration default="false" name="person" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="stepbystep-ruby" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/advanced/classes/method_override" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/advanced/classes/objects_classes" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -424,14 +365,14 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/advanced/classes/method_override/person.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/advanced/classes/objects_classes/person.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="false" name="dynamic_inherit" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="stepbystep-ruby" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/advanced/classes/inherit" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/advanced/classes/sharing_behavior" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -444,14 +385,14 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/advanced/classes/inherit/dynamic_inherit.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/advanced/classes/sharing_behavior/dynamic_inherit.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="false" name="inherit_from_struct" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="stepbystep-ruby" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/advanced/classes/inherit" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/advanced/classes/sharing_behavior" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -464,14 +405,14 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/advanced/classes/inherit/inherit_from_struct.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/advanced/classes/sharing_behavior/inherit_from_struct.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="false" name="prototype" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="stepbystep-ruby" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/advanced/classes/inherit" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/advanced/classes/sharing_behavior" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -484,7 +425,27 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/advanced/classes/inherit/prototype.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/advanced/classes/sharing_behavior/prototype.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="textile" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="stepbystep-ruby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/advanced/classes/sharing_behavior" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/advanced/classes/sharing_behavior/textile.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -616,19 +577,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.self_class" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.person" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.dynamic_inherit" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.inherit_from_struct" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.prototype" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.person" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.dynamic_inherit" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.inherit_from_struct" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.prototype" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.textile" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.prototype" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.inherit_from_struct" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.dynamic_inherit" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.person" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.self_class" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.textile" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.prototype" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.inherit_from_struct" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.dynamic_inherit" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.person" />
       </list>
     </recent_temporary>
   </component>
@@ -646,19 +607,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="208" y="73" width="1076" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2630561" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2197092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3384224" sideWeight="0.5044743" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3380084" sideWeight="0.49552572" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33660588" sideWeight="0.49552572" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32188296" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3211781" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -688,13 +649,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="113" column="6" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/rubycookbook/bdd/ts_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29501083">
@@ -999,7 +953,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/classes/method_override/self_class.rb">
+    <entry file="file://$PROJECT_DIR$/advanced/classes/objects_classes/self_class.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -1007,7 +961,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/classes/method_override/dave.rb">
+    <entry file="file://$PROJECT_DIR$/advanced/classes/objects_classes/dave.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -1015,7 +969,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/classes/method_override/animal.rb">
+    <entry file="file://$PROJECT_DIR$/advanced/classes/objects_classes/animal.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1023,7 +977,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/classes/method_override/current_classes.rb">
+    <entry file="file://$PROJECT_DIR$/advanced/classes/objects_classes/current_classes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -1038,7 +992,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/classes/method_override/person.rb">
+    <entry file="file://$PROJECT_DIR$/advanced/classes/objects_classes/person.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
@@ -1046,7 +1000,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/classes/inherit/dynamic_inherit.rb">
+    <entry file="file://$PROJECT_DIR$/advanced/classes/sharing_behavior/dynamic_inherit.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1054,7 +1008,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/classes/inherit/inherit_from_struct.rb">
+    <entry file="file://$PROJECT_DIR$/advanced/classes/sharing_behavior/inherit_from_struct.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
@@ -1062,10 +1016,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/classes/inherit/prototype.rb">
+    <entry file="file://$PROJECT_DIR$/advanced/classes/sharing_behavior/prototype.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8806306">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.34744525">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>

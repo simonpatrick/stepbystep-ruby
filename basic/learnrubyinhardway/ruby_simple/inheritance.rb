@@ -1,7 +1,7 @@
 # ====================
 # inheritance
 #
-# classes can inherit value and
+# classes can sharing_behavior value and
 # behavior form another class
 # =====================
 
