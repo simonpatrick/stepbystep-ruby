@@ -1,6 +1,6 @@
 def assert(condition)
-  raise "Error" unless condition
-  puts "Assertion OK"
+  raise 'Error' unless condition
+  puts 'Assertion OK'
 end
 
 def assert_completes(condition)
@@ -11,9 +11,9 @@ def assert_false(condition)
   assert !condition
 end
 
-def assert_equal(actual,expected)
-  raise "Expected #{expected},got #{actual}" unless actual==expected
-  puts "Assertion OK: I expected #{expected},get #{actual}"
+def assert_equals(x, y)
+  raise "Expected #{x}, got #{y}" unless x == y
+  puts "Assertion OK: I expected #{x} and I got it"
 end
 
 def assert_matches(regexp, x)

@@ -1,1 +1,0 @@
-puts [].methods.grep /^re/
