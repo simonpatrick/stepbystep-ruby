@@ -1,10 +1,10 @@
+require 'minitest/autorun'
+
 def to_alphanumberic(s)
   s.gsub(/[^\w\s]/,'')
 end
 
-require 'test/unit'
-
-class ToAlphaNumbericTest < Test::Unit::TestCase
+class ToAlphaNumbericTest < Minitest::Test
   def test_strip_non_alphumuberic_characters
     assert_equal '3 the magic number',to_alphanumberic('#3, the *magic, Number*?')
   end
@@ -16,9 +16,8 @@ class String
   end
 end
 
-require 'test/unit'
 
-class StringExpressionsTest <Test::Unit::TestCase
+class StringExpressionsTest < Minitest::Test
   def test_strip_non_alphanumeric_characters
     assert_equal '3 the Magic Number', '#3, the *Magic, Number*?'.to_alphanumeric
   end
